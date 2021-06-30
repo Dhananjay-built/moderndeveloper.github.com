@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif;}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a53f9;
+    background-image: linear-gradient(19deg,#1a53f9 0% ,#b721ff );
+}
+
+
+
+a{  
+    color: white;
+    text-decoration: none;
+
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+
+.active, ul li:hover{
+
+  border-top: 2px solid #5dade2;
+  border-bottom: 2px solid #5dade2;
+}
+
+.contact_btn a{
+    background-color: #d465ef;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-transform:capitalize ;
+
+}
+
+.contact_btn a:hover{
+    background: linear-gradient(to bottom, #615cfd 0% , #d465ef 100%);
+}
+
+.center_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+
+}
+.center_content h1{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.center_content h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+   /* z-index: 1;*/
+}
+
+.center_content h2:before{
+    content:"";
+    width: 250px;
+    height: auto;
+    border: 2px solid white;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.socail_network{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.fa_icons{
+    width: 40px;
+    height: 40px;
+    border-right:50% ;
+    background: linear-gradient(to bottom, #615cfd 0% , #d465ef 100%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+
+    
+    
+
+}
+.fa_icons a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa_icons:nth-child(even){
+    margin:20px 0px;
+}
